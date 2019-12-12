@@ -39,7 +39,7 @@
 .nav-link {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: grey;;
+    color: grey;
 }
 
 body {
@@ -56,9 +56,14 @@ body {
         bottom: 0;
         width: 100%;
         height: 70px;
+        margin-left: 0;
 }
 
 /* About me Page content */
+
+#bio {
+    margin-bottom: 50px;
+}
 
 .about-me-header {
     font-family: Arial, Helvetica, sans-serif;
@@ -85,3 +90,12 @@ img {
 }
 
 /* Portfolio page content styles */
+
+.portfolio-header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4aaaa5;
+    margin-bottom: 0%;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
