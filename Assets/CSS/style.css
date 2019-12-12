@@ -14,6 +14,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .nav-item {
+        font-size: 20px;
+    }
+}
+
 .navbar .navbar-brand {
     font-size: 30px;
     border-style: solid;
@@ -39,6 +45,16 @@ body {
     background-attachment:fixed;
 }
 
+#footer {
+        background-color: #666666;
+        border-top: 8px solid #4aaaa5;
+        border-bottom-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+}
+
 /* About me Page content */
 
 .about-me-header {
@@ -59,4 +75,8 @@ img {
     float: left;
     margin-right: 10px;
     margin-top: 3px;
+}
+
+#last-p {
+    margin-bottom: 50px;
 }
