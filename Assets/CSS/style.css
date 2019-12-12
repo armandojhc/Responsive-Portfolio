@@ -1,0 +1,30 @@
+.container {
+    background-color: #fff;
+}
+
+
+
+.navbar {
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+
+
+.navbar .navbar-brand {
+    border-style: solid;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+body {
+    background-image: url("../Images/vintage-concrete.png");
+    background-size: cover;
+    background-attachment:fixed;
+}
