@@ -1,14 +1,12 @@
-.container {
-    background-color: #fff;
-}
-
-
-
 .navbar {
     border-bottom-style: solid;
     border-bottom-color: grey;
+    background-color: #fff;
 }
 
+.container {
+    background-color: #fff;
+}
 
 .navbar .navbar-brand {
     font-size: 30px;
@@ -40,7 +38,7 @@ body {
 hr {
 }
 
-.about-me-content {
+/* .about-me-content { */
     background: #ffffff;
     padding: 30px;
     padding-bottom: 90px;
