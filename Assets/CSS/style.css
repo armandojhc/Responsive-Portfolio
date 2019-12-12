@@ -1,3 +1,5 @@
+/* Nav bar and styles that apply to elements that appear in all pages. Improvements on responsiveness */
+
 .navbar {
     border-bottom-style: solid;
     border-bottom-color: grey;
@@ -8,14 +10,15 @@
     background-color: #fff;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) { 
     .navbar {
         padding:0;
+        display: flex;
     }
 }
 
-@media (max-width: 600px) {
-    .nav-item {
+@media (max-width: 500px) {
+    .navbar-brand {
         font-size: 20px;
     }
 }
@@ -29,7 +32,7 @@
     margin-left: 0;
 }
 
-.nav {
+.nav { 
     margin: 0 auto;
 }
 
@@ -80,3 +83,5 @@ img {
 #last-p {
     margin-bottom: 50px;
 }
+
+/* Portfolio page content styles */
